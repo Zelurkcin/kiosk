@@ -1,0 +1,349 @@
+/** CSS STYLE **/
+:root {
+  --primary: #55a3e4;
+  --primary-darker: #1a51e7;
+  --dark: #42413c;
+  --white: #fff;
+  --black: #2a2626;
+  --dark-brown: #b09a81;
+  --light: #f5f4f0;
+  --gray: #908d8b;
+  --silver: #757575;
+  --white50: #d7ccc0;
+}
+
+.bg-light {
+  background: var(--light);
+}
+
+.bg-primary {
+  background: var(--primary);
+}
+
+.bg-dark {
+  background: var(--dark);
+}
+
+.bg-dark-brown {
+  background: var(--dark-brown);
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-white50 {
+  color: var(--white50);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-silver {
+  color: var(--silver);
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-negative-100 {
+  margin-top: -100px;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-34 {
+  font-size: 34px;
+}
+
+.fz-36 {
+  font-size: 36px;
+}
+
+.fz-52 {
+  font-size: 52px;
+}
+
+.fz-60 {
+  font-size: 60px;
+}
+
+.fz-72 {
+  font-size: 72px;
+}
+
+body {
+  overflow-x: hidden;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Open Sans', 'Segoe', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  line-height: 1.6em;
+  letter-spacing: 0;
+}
+
+.caption {
+  font-weight: normal;
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  line-height: 1.2em;
+}
+
+.bg-questions {
+  position: relative;
+  padding: 100px 0 100px 0;
+}
+
+ .bg-questions::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background.png');
+  opacity: 10%;
+  content: '';
+} 
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 0 auto;
+}
+
+
+/* .main-picture {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: -1;
+  height: 525px;c
+} */
+
+.bg {
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px 12px 24px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--primary-darker);
+}
+
+.background-white {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.video {
+  z-index: 1;
+  margin-bottom: -100px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 31.5%;
+  padding: 24px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.numbers {
+  font-size: 64px;
+  font-family: 'Neucha', cursive;
+  line-height: 1;
+}
+
+.card a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card:hover,
+.card:hover .numbers,
+.card:hover h3,
+.card:hover a {
+  color: var(--white);
+  background: var(--primary);
+}
+
+.nohover {
+  pointer-events: none;
+}
+
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.ver-ali-m {
+  vertical-align: middle;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.column-big {
+  width: calc(50% - 15px);
+}
+
+.column-small {
+  width: calc(100% - 52.1% - 30px);
+}
+
+.mb-150 {
+  margin-bottom: 150px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-55 {
+  margin-top: 55px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-negative-20 {
+  margin-top: -20px;
+}
+
+.manifestation {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.tt-u {
+  text-transform: uppercase;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.ali-c {
+  align-items: center;
+}
+
+.p-55 {
+  padding: 55px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.bz-bb {
+  box-sizing: border-box;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.d-flex {
+  display: flex;
+}
+
+
+.btn-send-msg {
+  width: 70px;
+  height: 50px;
+  border: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.btn-send-msg:hover {
+  background: var(--primary-darker);
+}
